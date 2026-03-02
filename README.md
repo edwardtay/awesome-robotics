@@ -1,6 +1,6 @@
 # Awesome Robotics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of robotics frameworks, simulators, tools, and platforms for building intelligent robots. 150+ tools across 20+ categories.
+> A curated list of robotics frameworks, simulators, tools, and platforms for building intelligent robots. 170+ tools across 23 categories.
 
 If you find this useful, please star the repo — it helps others discover it!
 
@@ -128,7 +128,6 @@ Full-stack self-driving and ADAS development platforms.
 | [Apollo](https://github.com/ApolloAuto/apollo) | 26k | C++ | Baidu's production-grade autonomous driving platform |
 | [CARLA](https://github.com/carla-simulator/carla) | 11k | C++ | Open-source simulator for autonomous driving research |
 | [openpilot](https://github.com/commaai/openpilot) | 51k | Python | comma.ai's open-source driver assistance system for 275+ car models |
-| [Foxglove](https://github.com/foxglove/studio) | 2k | TypeScript | Data visualization and debugging for autonomous vehicles and robots |
 | [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) | 1k | C++ | HD map framework for autonomous driving |
 
 ## 🗺️ SLAM & Localization
@@ -261,7 +260,6 @@ Test, validate, and ensure robot safety before deployment.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [ROS 2 Launch Testing](https://github.com/ros2/launch) | 200 | Python | Integration testing framework for ROS 2 robot systems |
-| [Foxglove](https://github.com/foxglove/studio) | 2k | TypeScript | Record, replay, and inspect robot data for debugging |
 | [rosbag2](https://github.com/ros2/rosbag2) | 200 | C++ | Record and replay ROS 2 topic data for regression testing |
 | [CARLA ScenarioRunner](https://github.com/carla-simulator/scenario_runner) | 1k | Python | Define and execute autonomous driving test scenarios |
 
@@ -273,7 +271,7 @@ Open-source robot hardware you can build or buy.
 |----------|------|-------------|
 | [Open Manipulator](https://github.com/ROBOTIS-GIT/open_manipulator) | Arm | ROBOTIS open-source robotic arm with ROS 2 support |
 | [TurtleBot](https://github.com/ROBOTIS-GIT/turtlebot3) | Mobile | The standard ROS learning platform — affordable mobile robot |
-| [Unitree Go2](https://github.com/unitreerobotics) | Quadruped | Affordable quadruped robot with ROS 2 SDK |
+| [Unitree Go2](https://github.com/unitreerobotics/unitree_ros2) | Quadruped | Affordable quadruped robot with ROS 2 SDK |
 | [SO-100/SO-ARM](https://github.com/TheRobotStudio/SO-ARM100) | Arm | Low-cost open-source robot arm for research and education |
 | [Franka Emika](https://github.com/frankaemika/franka_ros2) | Arm | Research-grade 7-DoF robot arm with torque-controlled joints |
 | [Hello Robot Stretch](https://github.com/hello-robot/stretch_ros2) | Mobile Manipulator | Affordable mobile manipulator for home robotics research |
@@ -299,7 +297,6 @@ Natural language, gestures, and intuitive interfaces for commanding robots.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [ROS Bridge](https://github.com/RobotWebTools/rosbridge_suite) | 1k | Python | WebSocket interface — build web/mobile robot control GUIs |
-| [Foxglove](https://github.com/foxglove/studio) | 2k | TypeScript | Web-based visualization and interaction with robot data streams |
 | [SayCan](https://github.com/google-research/google-research/tree/master/saycan) | - | Python | Google's LLM-based robot task grounding (Say → Can → Do) |
 | [RViz2](https://github.com/ros2/rviz) | 300 | C++ | 3D visualization tool for ROS 2 — the standard robot visualization |
 | [Gradio](https://github.com/gradio-app/gradio) | 37k | Python | Build quick web UIs for robot demos and teleoperation interfaces |
