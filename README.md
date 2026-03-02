@@ -1,5 +1,11 @@
 # Awesome Robotics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![Stars](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-robotics/update-stars.yml?label=star%20updates)](https://github.com/edwardtay/awesome-robotics/actions/workflows/update-stars.yml)
+[![Links](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-robotics/links.yml?label=links)](https://github.com/edwardtay/awesome-robotics/actions/workflows/links.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/edwardtay/awesome-robotics)](https://github.com/edwardtay/awesome-robotics/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/edwardtay/awesome-robotics/pulls)
+[![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+
 > A curated list of robotics frameworks, simulators, tools, and platforms. 170+ tools across 23 categories.
 
 > ⚠️ = aging (6-12 months since last commit) — may still work but watch for staleness.
