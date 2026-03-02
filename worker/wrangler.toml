@@ -1,0 +1,11 @@
+name = "awesome-robotics-dashboard"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+GITHUB_REPO = "edwardtay/awesome-robotics"
+CACHE_TTL = "3600"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"

@@ -1,0 +1,9 @@
+# Marketing & promotion strategy — keep private
+growth/
+
+# Generated files
+report.json
+node_modules/
+
+# Cloudflare Worker local state
+worker/.wrangler/
