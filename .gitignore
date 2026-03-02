@@ -1,9 +1,12 @@
-# Marketing & promotion strategy — keep private
-growth/
-
-# Generated files
-report.json
 node_modules/
+.wrangler/
+.dev.vars
+report.json
+*.log
+.env
+.env.*
 
-# Cloudflare Worker local state
-worker/.wrangler/
+# Internal — not for the public repo
+growth/
+worker/
+scripts/

@@ -1,0 +1,47 @@
+name: Suggest a Tool
+description: Suggest a robotics tool to add to the list
+title: "[Suggest] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: e.g. MuJoCo
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: GitHub URL or website
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - ROS / ROS 2 Ecosystem
+        - Simulation & Physics Engines
+        - Motion Planning & Navigation
+        - Computer Vision & Perception
+        - Autonomous Vehicles
+        - SLAM & Localization
+        - Robot Learning & RL
+        - Manipulation & Grasping
+        - Drones & UAVs
+        - Humanoid & Legged Robots
+        - Robot Control & Dynamics
+        - Foundation Models for Robotics
+        - Hardware Platforms & Kits
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Why should it be included?
+      placeholder: Brief description and why it's useful
+    validations:
+      required: true
