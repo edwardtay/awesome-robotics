@@ -40,7 +40,7 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | [ROS 2](https://github.com/ros2/ros2) | 6k | Robot middleware — real-time, DDS, multi-platform. |
 | [Navigation2](https://github.com/ros-navigation/navigation2) | 4k | Path planning, obstacle avoidance, behavior trees. |
 | [MoveIt 2](https://github.com/moveit/moveit2) | 2k | Motion planning for robotic arms. |
-| [Foxglove SDK](https://github.com/foxglove/foxglove-sdk) | 247 | SDK for publishing multimodal robotics data to Foxglove visualizations. |
+| [Foxglove SDK](https://github.com/foxglove/foxglove-sdk) | 248 | SDK for publishing multimodal robotics data to Foxglove visualizations. |
 | [micro-ROS](https://github.com/micro-ROS/micro_ros_setup) | 494 | ROS 2 on microcontrollers (ESP32, STM32). |
 | [ros2_control](https://github.com/ros-controls/ros2_control) | 914 | Hardware abstraction and real-time control. |
 | [ROS Bridge](https://github.com/RobotWebTools/rosbridge_suite) | 1k | WebSocket bridge — connect web/mobile apps to robots. |
