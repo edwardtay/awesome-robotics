@@ -6,9 +6,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/edwardtay/awesome-robotics/pulls)
 [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
-> A curated list of robotics frameworks, simulators, tools, and platforms. 170+ tools across 23 categories.
+> A curated list of robotics frameworks, simulators, tools, platforms, datasets, and learning resources.
 
-> ⚠️ = aging (6-12 months since last commit) — may still work but watch for staleness.
+> ⚠️ = known maintenance concern; verify repository status before adoption.
 
 ## How to Choose
 
@@ -37,12 +37,12 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [ROS 2](https://github.com/ros2/ros2) | 4k | Robot middleware — real-time, DDS, multi-platform. |
-| [Navigation2](https://github.com/ros-navigation/navigation2) | 3k | Path planning, obstacle avoidance, behavior trees. |
-| [MoveIt 2](https://github.com/moveit/moveit2) | 3k | Motion planning for robotic arms. |
-| [Foxglove](https://github.com/foxglove/studio) | 2k | Robotics observability and visualization platform. |
-| [micro-ROS](https://github.com/micro-ROS/micro_ros_setup) | 1k | ROS 2 on microcontrollers (ESP32, STM32). |
-| [ros2_control](https://github.com/ros-controls/ros2_control) | 1k | Hardware abstraction and real-time control. |
+| [ROS 2](https://github.com/ros2/ros2) | 6k | Robot middleware — real-time, DDS, multi-platform. |
+| [Navigation2](https://github.com/ros-navigation/navigation2) | 4k | Path planning, obstacle avoidance, behavior trees. |
+| [MoveIt 2](https://github.com/moveit/moveit2) | 2k | Motion planning for robotic arms. |
+| [Foxglove SDK](https://github.com/foxglove/foxglove-sdk) | 247 | SDK for publishing multimodal robotics data to Foxglove visualizations. |
+| [micro-ROS](https://github.com/micro-ROS/micro_ros_setup) | 494 | ROS 2 on microcontrollers (ESP32, STM32). |
+| [ros2_control](https://github.com/ros-controls/ros2_control) | 914 | Hardware abstraction and real-time control. |
 | [ROS Bridge](https://github.com/RobotWebTools/rosbridge_suite) | 1k | WebSocket bridge — connect web/mobile apps to robots. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -51,16 +51,16 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) | 24k | Python | Generative physics platform for embodied AI research. |
-| [PyBullet](https://github.com/bulletphysics/bullet3) | 13k | C++/Python | Real-time physics engine, widely used in RL. |
-| [MuJoCo](https://github.com/google-deepmind/mujoco) | 8k | C | DeepMind's physics engine — the standard for robot RL. |
-| [Isaac Lab](https://github.com/isaac-sim/IsaacLab) | 3k | Python | NVIDIA's framework for robot learning at GPU scale. |
-| [Webots](https://github.com/cyberbotics/webots) | 3k | C++ | Robot simulator with realistic physics and 3D rendering. |
-| [Drake](https://github.com/RobotLocomotion/drake) | 3k | C++/Python | MIT — planning, control, and verification toolkit. |
+| [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) | 29k | Python | Generative physics platform for embodied AI research. |
+| [PyBullet](https://github.com/bulletphysics/bullet3) | 15k | C++/Python | Real-time physics engine, widely used in RL. |
+| [MuJoCo](https://github.com/google-deepmind/mujoco) | 14k | C | Physics engine widely used for robotics and reinforcement learning. |
+| [Isaac Lab](https://github.com/isaac-sim/IsaacLab) | 7k | Python | NVIDIA's framework for robot learning at GPU scale. |
+| [Webots](https://github.com/cyberbotics/webots) | 4k | C++ | Robot simulator with realistic physics and 3D rendering. |
+| [Drake](https://github.com/RobotLocomotion/drake) | 4k | C++/Python | MIT — planning, control, and verification toolkit. |
 | [Gazebo](https://github.com/gazebosim/gz-sim) | 1k | C++ | Standard ROS simulator with accurate physics and sensors. |
 | [NVIDIA Isaac Sim](https://github.com/isaac-sim) | - | Python | GPU-accelerated sim with photorealistic rendering. |
-| [SAPIEN](https://github.com/haosulab/SAPIEN) | 1k | Python | Manipulation sim for articulated objects. |
-| [CoppeliaSim](https://github.com/CoppeliaRobotics/CoppeliaSimLib) | 1k | C++ | Versatile robot simulator (formerly V-REP). |
+| [SAPIEN](https://github.com/haosulab/SAPIEN) | 777 | Python | Manipulation sim for articulated objects. |
+| [CoppeliaSim](https://github.com/CoppeliaRobotics/CoppeliaSimLib) | 148 | C++ | Versatile robot simulator (formerly V-REP). |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -70,9 +70,9 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [OMPL](https://github.com/ompl/ompl) | 1k | C++ | Sampling-based planners (RRT, PRM, etc.). |
-| [CuRobo](https://github.com/NVlabs/curobo) | 1k | Python | NVIDIA CUDA-accelerated planning — 1000x faster than OMPL. |
-| [Moveit Pro](https://github.com/PickNikRobotics/moveit_studio) | 200 | C++ | Commercial MoveIt wrapper with behavior trees and web UI. |
+| [OMPL](https://github.com/ompl/ompl) | 2k | C++ | Sampling-based planners (RRT, PRM, etc.). |
+| [CuRobo](https://github.com/NVlabs/curobo) | 2k | Python | NVIDIA CUDA-accelerated motion generation and planning. |
+| [MoveIt Pro SDK](https://github.com/PickNikRobotics/moveit_studio_sdk) | 10 | C++ | Public SDK mirror for building MoveIt Pro behaviors and integrations. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -80,14 +80,14 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [OpenCV](https://github.com/opencv/opencv) | 80k | C++/Python | Foundational computer vision library. |
-| [Segment Anything](https://github.com/facebookresearch/segment-anything) | 50k | Python | Meta's zero-shot segmentation — segment any object. |
-| [YOLOv8/11](https://github.com/ultralytics/ultralytics) | 38k | Python | Real-time detection, segmentation, and pose estimation. |
-| [Open3D](https://github.com/isl-org/Open3D) | 12k | C++/Python | 3D point cloud processing, RGBD, visualization. |
-| [PCL](https://github.com/PointCloudLibrary/pcl) | 10k | C++ | Point clouds — filtering, segmentation, registration. |
-| [Grounded SAM](https://github.com/IDEA-Research/Grounded-SAM-2) | 5k | Python | Open-set detection + segmentation for robot perception. |
-| [DepthAnything](https://github.com/DepthAnything/Depth-Anything-V2) | 4k | Python | Monocular depth estimation for any image. |
-| [FoundationPose](https://github.com/NVlabs/FoundationPose) | 2k | Python | NVIDIA 6DoF pose estimation without CAD models. |
+| [OpenCV](https://github.com/opencv/opencv) | 89k | C++/Python | Foundational computer vision library. |
+| [Segment Anything](https://github.com/facebookresearch/segment-anything) | 54k | Python | Meta's zero-shot segmentation — segment any object. |
+| [YOLOv8/11](https://github.com/ultralytics/ultralytics) | 58k | Python | Real-time detection, segmentation, and pose estimation. |
+| [Open3D](https://github.com/isl-org/Open3D) | 14k | C++/Python | 3D point cloud processing, RGBD, visualization. |
+| [PCL](https://github.com/PointCloudLibrary/pcl) | 11k | C++ | Point clouds — filtering, segmentation, registration. |
+| [Grounded SAM](https://github.com/IDEA-Research/Grounded-SAM-2) | 4k | Python | Open-set detection + segmentation for robot perception. |
+| [DepthAnything](https://github.com/DepthAnything/Depth-Anything-V2) | 8k | Python | Monocular depth estimation for any image. |
+| [FoundationPose](https://github.com/NVlabs/FoundationPose) | 3k | Python | NVIDIA 6DoF pose estimation without CAD models. |
 | [ZED SDK](https://github.com/stereolabs/zed-sdk) | 1k | C++/Python | Stereo camera SDK — depth, tracking, spatial mapping. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -96,11 +96,11 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [openpilot](https://github.com/commaai/openpilot) | 51k | Python | comma.ai driver assist for 275+ car models. |
-| [Apollo](https://github.com/ApolloAuto/apollo) | 26k | C++ | Baidu's autonomous driving platform. |
-| [CARLA](https://github.com/carla-simulator/carla) | 11k | C++ | Autonomous driving simulator. |
-| [Autoware](https://github.com/autowarefoundation/autoware) | 9k | C++ | Full-stack autonomous driving on ROS 2. |
-| [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) | 1k | C++ | HD map framework for autonomous driving. |
+| [openpilot](https://github.com/commaai/openpilot) | 61k | Python | comma.ai driver assist for 275+ car models. |
+| [Apollo](https://github.com/ApolloAuto/apollo) | 27k | C++ | Baidu's autonomous driving platform. |
+| [CARLA](https://github.com/carla-simulator/carla) | 14k | C++ | Autonomous driving simulator. |
+| [Autoware](https://github.com/autowarefoundation/autoware) | 12k | C++ | Full-stack autonomous driving on ROS 2. |
+| [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) | 948 | C++ | HD map framework for autonomous driving. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -108,16 +108,16 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) | 15k | Python/CUDA | Real-time radiance field rendering — next-gen mapping. |
-| [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio) | 10k | Python | NeRF-based 3D reconstruction for scene understanding. |
-| [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) | 7k | C++ | Visual/visual-inertial/multi-map SLAM (mono, stereo, RGBD). |
-| [Cartographer](https://github.com/cartographer-project/cartographer) | 7k | C++ | Google's real-time 2D and 3D SLAM. ⚠️ |
-| [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) | 4k | C++ | Tightly-coupled LiDAR inertial odometry. |
-| [GTSAM](https://github.com/borglab/gtsam) | 3k | C++ | Factor graph optimization for SLAM and SFM. |
-| [RTAB-Map](https://github.com/introlab/rtabmap) | 3k | C++ | RGB-D, Stereo, and LiDAR SLAM with real-time loop closure. |
-| [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) | 3k | C++ | Fast direct LiDAR-inertial odometry from HKU. |
+| [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) | 22k | Python/CUDA | Real-time radiance field rendering — next-gen mapping. |
+| [Nerfstudio](https://github.com/nerfstudio-project/nerfstudio) | 12k | Python | NeRF-based 3D reconstruction for scene understanding. |
+| [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) | 9k | C++ | Visual/visual-inertial/multi-map SLAM (mono, stereo, RGBD). |
+| [Cartographer](https://github.com/cartographer-project/cartographer) | 8k | C++ | Google's real-time 2D and 3D SLAM. ⚠️ |
+| [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) | 5k | C++ | Tightly-coupled LiDAR inertial odometry. |
+| [GTSAM](https://github.com/borglab/gtsam) | 4k | C++ | Factor graph optimization for SLAM and SFM. |
+| [RTAB-Map](https://github.com/introlab/rtabmap) | 4k | C++ | RGB-D, Stereo, and LiDAR SLAM with real-time loop closure. |
+| [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) | 5k | C++ | Fast direct LiDAR-inertial odometry from HKU. |
 | [KISS-ICP](https://github.com/PRBonn/kiss-icp) | 2k | C++/Python | Minimal, robust LiDAR odometry. |
-| [OpenVSLAM](https://github.com/stella-cv/stella_vslam) | 2k | C++ | Visual SLAM supporting any camera model. |
+| [OpenVSLAM](https://github.com/stella-cv/stella_vslam) | 1k | C++ | Visual SLAM supporting any camera model. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -127,10 +127,10 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) | 9k | Python | RL algorithms (PPO, SAC, TD3, etc.). |
-| [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) | 7k | Python | Standard API for RL environments (successor to OpenAI Gym). |
+| [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) | 13k | Python | RL algorithms (PPO, SAC, TD3, etc.). |
+| [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) | 12k | Python | Standard API for RL environments (successor to OpenAI Gym). |
 | [Robosuite](https://github.com/ARISE-Initiative/robosuite) | 2k | Python | Manipulation benchmark with MuJoCo backend. |
-| [ManiSkill](https://github.com/haosulab/ManiSkill) | 1k | Python | GPU-parallelized manipulation benchmark on SAPIEN. |
+| [ManiSkill](https://github.com/haosulab/ManiSkill) | 3k | Python | GPU-parallelized manipulation benchmark on SAPIEN. |
 | [robomimic](https://github.com/ARISE-Initiative/robomimic) | 1k | Python | Imitation learning for robot manipulation. |
 | [rl_games](https://github.com/Denys88/rl_games) | 1k | Python | RL framework designed for GPU sim environments. |
 
@@ -142,10 +142,10 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [GraspNet](https://github.com/graspnet/graspnet-baseline) | 1k | Python | 6-DoF grasp detection on point clouds. |
-| [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) | 1k | Python | Grasp detection for any object in dense clutter. |
-| [Contact-GraspNet](https://github.com/NVlabs/contact_graspnet) | 1k | Python | NVIDIA 6-DoF grasps conditioned on contact regions. |
-| [Dex-Net](https://github.com/BerkeleyAutomation/dex-net) | 1k | Python | Deep learning grasp quality for bin-picking. |
+| [GraspNet](https://github.com/graspnet/graspnet-baseline) | 959 | Python | 6-DoF grasp detection on point clouds. |
+| [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) | 884 | Python | Grasp detection for any object in dense clutter. |
+| [Contact-GraspNet](https://github.com/NVlabs/contact_graspnet) | 503 | Python | NVIDIA 6-DoF grasps conditioned on contact regions. |
+| [Dex-Net](https://github.com/BerkeleyAutomation/dex-net) | 362 | Python | Deep learning grasp quality for bin-picking. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -153,12 +153,12 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [ArduPilot](https://github.com/ArduPilot/ardupilot) | 12k | C++ | Most versatile autopilot — planes, copters, rovers, subs. |
-| [PX4](https://github.com/PX4/PX4-Autopilot) | 9k | C++ | Flight controller for drones and VTOL. |
-| [MAVLink](https://github.com/mavlink/mavlink) | 3k | C | Lightweight drone-to-ground messaging protocol. |
-| [QGroundControl](https://github.com/mavlink/qgroundcontrol) | 3k | C++ | Cross-platform ground control station. |
+| [ArduPilot](https://github.com/ArduPilot/ardupilot) | 15k | C++ | Autopilot software for planes, copters, rovers, and submarines. |
+| [PX4](https://github.com/PX4/PX4-Autopilot) | 12k | C++ | Flight controller for drones and VTOL. |
+| [MAVLink](https://github.com/mavlink/mavlink) | 2k | C | Lightweight drone-to-ground messaging protocol. |
+| [QGroundControl](https://github.com/mavlink/qgroundcontrol) | 5k | C++ | Cross-platform ground control station. |
 | [MAVROS](https://github.com/mavlink/mavros) | 1k | C++ | MAVLink driver for ROS — connect to PX4/ArduPilot. |
-| [Aerostack2](https://github.com/aerostack2/aerostack2) | 200 | C++ | ROS 2 framework for autonomous aerial robots. |
+| [Aerostack2](https://github.com/aerostack2/aerostack2) | 353 | C++ | ROS 2 framework for autonomous aerial robots. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -166,11 +166,11 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Pinocchio](https://github.com/stack-of-tasks/pinocchio) | 2k | C++/Python | Fast rigid-body dynamics and kinematics for humanoids. |
-| [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc) | 1k | C++ | DeepMind's model-predictive control for locomotion. |
+| [Pinocchio](https://github.com/stack-of-tasks/pinocchio) | 3k | C++/Python | Fast rigid-body dynamics and kinematics for humanoids. |
+| [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc) | 2k | C++ | DeepMind's model-predictive control for locomotion. |
 | [Crocoddyl](https://github.com/loco-3d/crocoddyl) | 1k | C++/Python | Optimal control for multi-contact locomotion. |
-| [legged_control](https://github.com/qiayuanl/legged_control) | 1k | C++ | Nonlinear MPC for quadrupeds using OCS2. |
-| [MIT Cheetah Software](https://github.com/mit-biomimetics/Cheetah-Software) | 1k | C++ | Mini Cheetah quadruped control. |
+| [legged_control](https://github.com/qiayuanl/legged_control) | 2k | C++ | Nonlinear MPC for quadrupeds using OCS2. |
+| [MIT Cheetah Software](https://github.com/mit-biomimetics/Cheetah-Software) | 3k | C++ | Mini Cheetah quadruped control. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -181,9 +181,9 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Casadi](https://github.com/casadi/casadi) | 2k | C++/Python | Nonlinear optimization and algorithmic differentiation for MPC. |
-| [control-toolbox](https://github.com/ethz-adrl/control-toolbox) | 1k | C++ | ETH Zurich — optimal control and estimation. |
-| [RBDL](https://github.com/rbdl/rbdl) | 500 | C++ | Rigid Body Dynamics — forward/inverse dynamics. |
-| [Orocos KDL](https://github.com/orocos/orocos_kinematics_dynamics) | 300 | C++ | Kinematics and dynamics library for ROS. |
+| [control-toolbox](https://github.com/ethz-adrl/control-toolbox) | 2k | C++ | ETH Zurich — optimal control and estimation. |
+| [RBDL](https://github.com/rbdl/rbdl) | 696 | C++ | Rigid Body Dynamics — forward/inverse dynamics. |
+| [Orocos KDL](https://github.com/orocos/orocos_kinematics_dynamics) | 881 | C++ | Kinematics and dynamics library for ROS. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -193,10 +193,10 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [LeRobot](https://github.com/huggingface/lerobot) | 8k | Python | Hugging Face's platform for real-world robot learning with shared datasets. |
-| [Octo](https://github.com/octo-models/octo) | 1k | Python | Generalist robot policy trained on Open X-Embodiment. |
-| [VoxPoser](https://github.com/huangwl18/VoxPoser) | 400 | Python | Composable 3D value maps from LLMs for manipulation. |
-| [RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen) | 300 | Python | LLM-driven automated robot skill generation. |
+| [LeRobot](https://github.com/huggingface/lerobot) | 25k | Python | Hugging Face's platform for real-world robot learning with shared datasets. |
+| [Octo](https://github.com/octo-models/octo) | 2k | Python | Generalist robot policy trained on Open X-Embodiment. |
+| [VoxPoser](https://github.com/huangwl18/VoxPoser) | 810 | Python | Composable 3D value maps from LLMs for manipulation. |
+| [RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen) | 1k | Python | LLM-driven automated robot skill generation. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -204,10 +204,10 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [gRPC](https://github.com/grpc/grpc) | 42k | Multi | RPC framework for robot-cloud communication. |
-| [ZeroMQ](https://github.com/zeromq/libzmq) | 10k | C | Async messaging library for robot systems. |
-| [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) | 2k | Rust | Pub/sub protocol emerging as ROS 2 middleware alternative. |
-| [ROS 2 DDS](https://github.com/ros2/rmw_fastrtps) | 200 | C++ | ROS 2 middleware using Fast-RTPS. |
+| [gRPC](https://github.com/grpc/grpc) | 45k | Multi | RPC framework for robot-cloud communication. |
+| [ZeroMQ](https://github.com/zeromq/libzmq) | 11k | C | Async messaging library for robot systems. |
+| [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) | 3k | Rust | Pub/sub protocol emerging as ROS 2 middleware alternative. |
+| [ROS 2 DDS](https://github.com/ros2/rmw_fastrtps) | 199 | C++ | ROS 2 middleware using Fast-RTPS. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -215,11 +215,11 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [MuJoCo](https://github.com/google-deepmind/mujoco) | 8k | XML | MJCF format for robot models and environments. |
-| [USD (Universal Scene)](https://github.com/PixarAnimationStudios/OpenUSD) | 6k | C++ | Pixar's scene description — used by NVIDIA Isaac Sim. |
-| [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) | 2k | XML | Curated robot models (UR5, Franka, Unitree, etc.). |
-| [xacro](https://github.com/ros/xacro) | 200 | Python | XML macro language for URDF. |
-| [robot_state_publisher](https://github.com/ros/robot_state_publisher) | 200 | C++ | Publishes robot transforms from URDF. |
+| [MuJoCo](https://github.com/google-deepmind/mujoco) | 14k | XML | MJCF format for robot models and environments. |
+| [USD (Universal Scene)](https://github.com/PixarAnimationStudios/OpenUSD) | 7k | C++ | Pixar's scene description — used by NVIDIA Isaac Sim. |
+| [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) | 4k | XML | Curated robot models (UR5, Franka, Unitree, etc.). |
+| [xacro](https://github.com/ros/xacro) | 124 | Python | XML macro language for URDF. |
+| [robot_state_publisher](https://github.com/ros/robot_state_publisher) | 120 | C++ | Publishes robot transforms from URDF. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -227,9 +227,9 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [CARLA ScenarioRunner](https://github.com/carla-simulator/scenario_runner) | 1k | Python | Autonomous driving test scenarios. |
-| [ROS 2 Launch Testing](https://github.com/ros2/launch) | 200 | Python | Integration testing for ROS 2 systems. |
-| [rosbag2](https://github.com/ros2/rosbag2) | 200 | C++ | Record and replay ROS 2 topic data. |
+| [CARLA ScenarioRunner](https://github.com/carla-simulator/scenario_runner) | 662 | Python | Autonomous driving test scenarios. |
+| [ROS 2 Launch Testing](https://github.com/ros2/launch) | 157 | Python | Integration testing for ROS 2 systems. |
+| [rosbag2](https://github.com/ros2/rosbag2) | 418 | C++ | Record and replay ROS 2 topic data. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -252,11 +252,11 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Kalibr](https://github.com/ethz-asl/kalibr) | 4k | C++ | Multi-camera and camera-IMU calibration from ETH Zurich. |
-| [IKFast](https://github.com/rdiankov/openrave) | 1k | C++ | Analytical inverse kinematics solver (via OpenRAVE). ⚠️ |
-| [ikpy](https://github.com/Phylliade/ikpy) | 600 | Python | Pure Python inverse kinematics — great for prototyping. |
-| [easy_handeye](https://github.com/IFL-CAMP/easy_handeye) | 600 | Python | Hand-eye calibration for robot arms. |
-| [KDL](https://github.com/orocos/orocos_kinematics_dynamics) | 300 | C++ | Orocos kinematics and dynamics for ROS. |
+| [Kalibr](https://github.com/ethz-asl/kalibr) | 5k | C++ | Multi-camera and camera-IMU calibration from ETH Zurich. |
+| [IKFast](https://github.com/rdiankov/openrave) | 805 | C++ | Analytical inverse kinematics solver distributed with OpenRAVE. |
+| [ikpy](https://github.com/Phylliade/ikpy) | 1k | Python | Pure Python inverse kinematics — great for prototyping. |
+| [easy_handeye](https://github.com/IFL-CAMP/easy_handeye) | 1k | Python | Hand-eye calibration for robot arms. |
+| [KDL](https://github.com/orocos/orocos_kinematics_dynamics) | 881 | C++ | Orocos kinematics and dynamics for ROS. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -266,9 +266,9 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Gradio](https://github.com/gradio-app/gradio) | 37k | Python | Quick web UIs for robot demos and teleoperation. |
+| [Gradio](https://github.com/gradio-app/gradio) | 43k | Python | Quick web UIs for robot demos and teleoperation. |
 | [SayCan](https://github.com/google-research/google-research/tree/master/saycan) | - | Python | Google's LLM-based robot task grounding. |
-| [RViz2](https://github.com/ros2/rviz) | 300 | C++ | 3D visualization for ROS 2. |
+| [RViz2](https://github.com/ros2/rviz) | 464 | C++ | 3D visualization for ROS 2. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -280,8 +280,8 @@ VR teleoperation is the primary way to collect robot demonstration data.
 |------|-------|----------|-------------|
 | [Open TeleVision](https://github.com/OpenTeleVision/TeleVision) | 1k | Python | Immersive VR teleoperation for bimanual dexterous control. |
 | [UMI](https://github.com/real-stanford/universal_manipulation_interface) | 1k | Python | Stanford's manipulation interface for scalable data collection. |
-| [GELLO](https://github.com/wuphilipp/gello_software) | 500 | Python | Low-cost teleoperation with 3D-printed replicas. |
-| [Dexterous Teleop](https://github.com/dexsuite/dex-retargeting) | 400 | Python | Hand motion retargeting for dexterous robot teleop. |
+| [GELLO](https://github.com/wuphilipp/gello_software) | 488 | Python | Low-cost teleoperation with 3D-printed replicas. |
+| [Dexterous Teleop](https://github.com/dexsuite/dex-retargeting) | 1k | Python | Hand motion retargeting for dexterous robot teleop. |
 | [NVIDIA Omniverse](https://developer.nvidia.com/omniverse) | - | Python | Digital twin platform for robot sim and remote operation. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -290,11 +290,11 @@ VR teleoperation is the primary way to collect robot demonstration data.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Open-RMF](https://github.com/open-rmf/rmf) | 1k | C++ | Robot Fleet Management for multi-robot coordination. |
-| [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2) | 300 | Python | ROS 2 framework for Crazyflie nano-drone swarms. |
-| [ARGoS](https://github.com/ilpincy/argos3) | 200 | C++ | Multi-robot simulator — 10,000+ robots. |
-| [MAPF](https://github.com/Jiaoyang-Li/CBSH2-RTC) | 200 | C++ | Multi-Agent Path Finding with conflict-based search. |
-| [Buzz](https://github.com/MISTLab/Buzz) | 200 | C | Programming language for robot swarms. |
+| [Open-RMF](https://github.com/open-rmf/rmf) | 409 | C++ | Robot Fleet Management for multi-robot coordination. |
+| [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2) | 239 | Python | ROS 2 framework for Crazyflie nano-drone swarms. |
+| [ARGoS](https://github.com/ilpincy/argos3) | 309 | C++ | Multi-robot simulator — 10,000+ robots. |
+| [MAPF](https://github.com/Jiaoyang-Li/CBSH2-RTC) | 132 | C++ | Multi-Agent Path Finding with conflict-based search. |
+| [Buzz](https://github.com/MISTLab/Buzz) | 316 | C | Programming language for robot swarms. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -359,7 +359,7 @@ VR teleoperation is the primary way to collect robot demonstration data.
 
 | List | Description |
 |------|-------------|
-| [awesome-ai](https://github.com/edwardtay/awesome-ai) | 400+ AI APIs, tools, frameworks, and platforms. |
+| [awesome-ai](https://github.com/edwardtay/awesome-ai) | AI APIs, tools, frameworks, platforms, and learning resources. |
 | [awesome-scrapers](https://github.com/edwardtay/awesome-scrapers) | Scrapers, crawlers, and data extraction tools. |
 | [awesome-web3-ai](https://github.com/edwardtay/awesome-web3-ai) | Web3 x AI tools, agent frameworks, and protocols. |
 
@@ -372,8 +372,5 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 - Note if a tool is unmaintained (last commit >1 year ago)
 - Commercial tools/services are fine but must be clearly labeled
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Edward Tay](https://github.com/edwardtay) has waived all copyright and related or neighboring rights to this work.
