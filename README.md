@@ -10,6 +10,8 @@
 
 > ⚠️ = known maintenance concern; verify repository status before adoption.
 
+> 📚 **New:** [**The Robotics Canon**](https://blog.robo2u.com/canon) — the timeless, must-read papers, textbooks, courses & talks of robotics, adversarially fact-checked and grouped by subfield.
+
 ## How to Choose
 
 | I need to... | Start here |
@@ -378,6 +380,7 @@ VR teleoperation is the primary way to collect robot demonstration data.
 | [awesome-ai](https://github.com/edwardtay/awesome-ai) | AI APIs, tools, frameworks, platforms, and learning resources. |
 | [awesome-scrapers](https://github.com/edwardtay/awesome-scrapers) | Scrapers, crawlers, and data extraction tools. |
 | [awesome-web3-ai](https://github.com/edwardtay/awesome-web3-ai) | Web3 x AI tools, agent frameworks, and protocols. |
+| [awesome-OSINT](https://github.com/edwardtay/awesome-OSINT) | OSINT tools: people search, domains, social media, geolocation, breach data. |
 
 ## Contributing
 
