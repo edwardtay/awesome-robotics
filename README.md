@@ -42,9 +42,9 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | [ROS 2](https://github.com/ros2/ros2) | 6k | Robot middleware — real-time, DDS, multi-platform. |
 | [Navigation2](https://github.com/ros-navigation/navigation2) | 5k | Path planning, obstacle avoidance, behavior trees. |
 | [MoveIt 2](https://github.com/moveit/moveit2) | 2k | Motion planning for robotic arms. |
-| [Foxglove SDK](https://github.com/foxglove/foxglove-sdk) | 283 | SDK for publishing multimodal robotics data to Foxglove visualizations. |
+| [Foxglove SDK](https://github.com/foxglove/foxglove-sdk) | 289 | SDK for publishing multimodal robotics data to Foxglove visualizations. |
 | [micro-ROS](https://github.com/micro-ROS/micro_ros_setup) | 501 | ROS 2 on microcontrollers (ESP32, STM32). |
-| [ros2_control](https://github.com/ros-controls/ros2_control) | 954 | Hardware abstraction and real-time control. |
+| [ros2_control](https://github.com/ros-controls/ros2_control) | 962 | Hardware abstraction and real-time control. |
 | [ROS Bridge](https://github.com/RobotWebTools/rosbridge_suite) | 1k | WebSocket bridge — connect web/mobile apps to robots. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -57,11 +57,11 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | [PyBullet](https://github.com/bulletphysics/bullet3) | 15k | C++/Python | Real-time physics engine, widely used in RL. |
 | [MuJoCo](https://github.com/google-deepmind/mujoco) | 14k | C | Physics engine widely used for robotics and reinforcement learning. |
 | [Isaac Lab](https://github.com/isaac-sim/IsaacLab) | 8k | Python | NVIDIA's framework for robot learning at GPU scale. |
-| [Webots](https://github.com/cyberbotics/webots) | 4k | C++ | Robot simulator with realistic physics and 3D rendering. |
+| [Webots](https://github.com/cyberbotics/webots) | 5k | C++ | Robot simulator with realistic physics and 3D rendering. |
 | [Drake](https://github.com/RobotLocomotion/drake) | 4k | C++/Python | MIT — planning, control, and verification toolkit. |
 | [Gazebo](https://github.com/gazebosim/gz-sim) | 1k | C++ | Standard ROS simulator with accurate physics and sensors. |
 | [NVIDIA Isaac Sim](https://github.com/isaac-sim/IsaacSim) | 4k | Python | GPU-accelerated sim with photorealistic rendering. |
-| [SAPIEN](https://github.com/haosulab/SAPIEN) | 800 | Python | Manipulation sim for articulated objects. |
+| [SAPIEN](https://github.com/haosulab/SAPIEN) | 804 | Python | Manipulation sim for articulated objects. |
 | [CoppeliaSim](https://github.com/CoppeliaRobotics/CoppeliaSimLib) | 148 | C++ | Versatile robot simulator (formerly V-REP). |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -76,7 +76,7 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | [CuRobo](https://github.com/NVlabs/curobo) | 2k | Python | NVIDIA CUDA-accelerated motion generation and planning. |
 | [MoveIt Pro SDK](https://github.com/PickNikRobotics/moveit_studio_sdk) | 10 | C++ | Public SDK mirror for building MoveIt Pro behaviors and integrations. |
 | [Ruckig](https://github.com/pantor/ruckig) | 1k | C++ | Real-time jerk-limited, time-optimal trajectory generation (used by MoveIt 2). |
-| [Tesseract](https://github.com/tesseract-robotics/tesseract) | 376 | C++ | Motion-planning environment for industrial robotics. |
+| [Tesseract](https://github.com/tesseract-robotics/tesseract) | 381 | C++ | Motion-planning environment for industrial robotics. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -104,7 +104,7 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | [Apollo](https://github.com/ApolloAuto/apollo) | 27k | C++ | Baidu's autonomous driving platform. |
 | [CARLA](https://github.com/carla-simulator/carla) | 14k | C++ | Autonomous driving simulator. |
 | [Autoware](https://github.com/autowarefoundation/autoware) | 12k | C++ | Full-stack autonomous driving on ROS 2. |
-| [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) | 955 | C++ | HD map framework for autonomous driving. |
+| [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) | 954 | C++ | HD map framework for autonomous driving. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -138,7 +138,7 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) | 12k | Python | Standard API for RL environments (successor to OpenAI Gym). |
 | [Robosuite](https://github.com/ARISE-Initiative/robosuite) | 3k | Python | Manipulation benchmark with MuJoCo backend. |
 | [ManiSkill](https://github.com/mani-skill/ManiSkill) | 3k | Python | GPU-parallelized manipulation benchmark on SAPIEN. |
-| [robomimic](https://github.com/ARISE-Initiative/robomimic) | 1k | Python | Imitation learning for robot manipulation. |
+| [robomimic](https://github.com/ARISE-Initiative/robomimic) | 2k | Python | Imitation learning for robot manipulation. |
 | [rl_games](https://github.com/Denys88/rl_games) | 1k | Python | RL framework designed for GPU sim environments. |
 | [CleanRL](https://github.com/vwxyzjn/cleanrl) | 10k | Python | Single-file, high-quality deep-RL algorithm implementations. |
 | [RSL-RL](https://github.com/leggedrobotics/rsl_rl) | 3k | Python | Fast GPU PPO library from ETH Zurich (standard for Isaac Lab). |
@@ -152,10 +152,10 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [GraspNet](https://github.com/graspnet/graspnet-baseline) | 988 | Python | 6-DoF grasp detection on point clouds. |
-| [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) | 948 | Python | Grasp detection for any object in dense clutter. |
-| [Contact-GraspNet](https://github.com/NVlabs/contact_graspnet) | 515 | Python | NVIDIA 6-DoF grasps conditioned on contact regions. |
-| [Dex-Net](https://github.com/BerkeleyAutomation/dex-net) | 363 | Python | Deep learning grasp quality for bin-picking. ⚠️ |
+| [GraspNet](https://github.com/graspnet/graspnet-baseline) | 995 | Python | 6-DoF grasp detection on point clouds. |
+| [AnyGrasp](https://github.com/graspnet/anygrasp_sdk) | 955 | Python | Grasp detection for any object in dense clutter. |
+| [Contact-GraspNet](https://github.com/NVlabs/contact_graspnet) | 516 | Python | NVIDIA 6-DoF grasps conditioned on contact regions. |
+| [Dex-Net](https://github.com/BerkeleyAutomation/dex-net) | 364 | Python | Deep learning grasp quality for bin-picking. ⚠️ |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -168,7 +168,7 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 | [MAVLink](https://github.com/mavlink/mavlink) | 2k | C | Lightweight drone-to-ground messaging protocol. |
 | [QGroundControl](https://github.com/mavlink/qgroundcontrol) | 5k | C++ | Cross-platform ground control station. |
 | [MAVROS](https://github.com/mavlink/mavros) | 1k | C++ | MAVLink driver for ROS — connect to PX4/ArduPilot. |
-| [Aerostack2](https://github.com/aerostack2/aerostack2) | 364 | C++ | ROS 2 framework for autonomous aerial robots. |
+| [Aerostack2](https://github.com/aerostack2/aerostack2) | 366 | C++ | ROS 2 framework for autonomous aerial robots. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -192,7 +192,7 @@ ROS 2 is the production-ready successor to ROS 1 — real-time support, DDS comm
 |------|-------|----------|-------------|
 | [Casadi](https://github.com/casadi/casadi) | 2k | C++/Python | Nonlinear optimization and algorithmic differentiation for MPC. |
 | [control-toolbox](https://github.com/ethz-adrl/control-toolbox) | 2k | C++ | ETH Zurich — optimal control and estimation. ⚠️ |
-| [RBDL](https://github.com/rbdl/rbdl) | 701 | C++ | Rigid Body Dynamics — forward/inverse dynamics. |
+| [RBDL](https://github.com/rbdl/rbdl) | 702 | C++ | Rigid Body Dynamics — forward/inverse dynamics. |
 | [Orocos KDL](https://github.com/orocos/orocos_kinematics_dynamics) | 894 | C++ | Kinematics and dynamics library for ROS. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -205,7 +205,7 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 |------|-------|----------|-------------|
 | [LeRobot](https://github.com/huggingface/lerobot) | 26k | Python | Hugging Face's platform for real-world robot learning with shared datasets. |
 | [Octo](https://github.com/octo-models/octo) | 2k | Python | Generalist robot policy trained on Open X-Embodiment. ⚠️ |
-| [VoxPoser](https://github.com/huangwl18/VoxPoser) | 825 | Python | Composable 3D value maps from LLMs for manipulation. |
+| [VoxPoser](https://github.com/huangwl18/VoxPoser) | 827 | Python | Composable 3D value maps from LLMs for manipulation. |
 | [RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen) | 1k | Python | LLM-driven automated robot skill generation. |
 | [OpenVLA](https://github.com/openvla/openvla) | 7k | Python | 7B open vision-language-action model for generalist manipulation. |
 | [openpi (π0)](https://github.com/Physical-Intelligence/openpi) | 13k | Python | Physical Intelligence's open π0 / π0.5 VLA weights and code. |
@@ -222,7 +222,7 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 | [gRPC](https://github.com/grpc/grpc) | 45k | Multi | RPC framework for robot-cloud communication. |
 | [ZeroMQ](https://github.com/zeromq/libzmq) | 11k | C | Async messaging library for robot systems. |
 | [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) | 3k | Rust | Pub/sub protocol emerging as ROS 2 middleware alternative. |
-| [ROS 2 DDS](https://github.com/ros2/rmw_fastrtps) | 201 | C++ | ROS 2 middleware using Fast-RTPS. |
+| [ROS 2 DDS](https://github.com/ros2/rmw_fastrtps) | 202 | C++ | ROS 2 middleware using Fast-RTPS. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -244,7 +244,7 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 |------|-------|----------|-------------|
 | [CARLA ScenarioRunner](https://github.com/carla-simulator/scenario_runner) | 674 | Python | Autonomous driving test scenarios. |
 | [ROS 2 Launch Testing](https://github.com/ros2/launch) | 157 | Python | Integration testing for ROS 2 systems. |
-| [rosbag2](https://github.com/ros2/rosbag2) | 429 | C++ | Record and replay ROS 2 topic data. |
+| [rosbag2](https://github.com/ros2/rosbag2) | 431 | C++ | Record and replay ROS 2 topic data. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -283,7 +283,7 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 |------|-------|----------|-------------|
 | [Gradio](https://github.com/gradio-app/gradio) | 43k | Python | Quick web UIs for robot demos and teleoperation. |
 | [SayCan](https://github.com/google-research/google-research/tree/master/saycan) | - | Python | Google's LLM-based robot task grounding. |
-| [RViz2](https://github.com/ros2/rviz) | 472 | C++ | 3D visualization for ROS 2. |
+| [RViz2](https://github.com/ros2/rviz) | 475 | C++ | 3D visualization for ROS 2. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -295,7 +295,7 @@ VR teleoperation is the primary way to collect robot demonstration data.
 |------|-------|----------|-------------|
 | [Open TeleVision](https://github.com/OpenTeleVision/TeleVision) | 1k | Python | Immersive VR teleoperation for bimanual dexterous control. |
 | [UMI](https://github.com/real-stanford/universal_manipulation_interface) | 2k | Python | Stanford's manipulation interface for scalable data collection. |
-| [GELLO](https://github.com/wuphilipp/gello_software) | 511 | Python | Low-cost teleoperation with 3D-printed replicas. |
+| [GELLO](https://github.com/wuphilipp/gello_software) | 514 | Python | Low-cost teleoperation with 3D-printed replicas. |
 | [Dexterous Teleop](https://github.com/dexsuite/dex-retargeting) | 1k | Python | Hand motion retargeting for dexterous robot teleop. |
 | [NVIDIA Omniverse](https://developer.nvidia.com/omniverse) | - | Python | Digital twin platform for robot sim and remote operation. |
 
@@ -305,8 +305,8 @@ VR teleoperation is the primary way to collect robot demonstration data.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Open-RMF](https://github.com/open-rmf/rmf) | 424 | C++ | Robot Fleet Management for multi-robot coordination. |
-| [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2) | 243 | Python | ROS 2 framework for Crazyflie nano-drone swarms. |
+| [Open-RMF](https://github.com/open-rmf/rmf) | 426 | C++ | Robot Fleet Management for multi-robot coordination. |
+| [Crazyswarm2](https://github.com/IMRCLab/crazyswarm2) | 245 | Python | ROS 2 framework for Crazyflie nano-drone swarms. |
 | [ARGoS](https://github.com/ilpincy/argos3) | 312 | C++ | Multi-robot simulator — 10,000+ robots. |
 | [MAPF](https://github.com/Jiaoyang-Li/CBSH2-RTC) | 136 | C++ | Multi-Agent Path Finding with conflict-based search. |
 | [Buzz](https://github.com/MISTLab/Buzz) | 318 | C | Programming language for robot swarms. |
