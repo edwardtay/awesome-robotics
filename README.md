@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.webp" alt="Awesome Robotics Frameworks: ROS 2, simulators, motion planning, SLAM, perception, drones and robot learning" width="100%"></p>
+
 # Awesome Robotics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![Stars](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-robotics/update-stars.yml?label=star%20updates)](https://github.com/edwardtay/awesome-robotics/actions/workflows/update-stars.yml)
