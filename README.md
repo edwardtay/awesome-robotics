@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.webp" alt="Awesome Robotics Frameworks: ROS 2, simulators, motion planning, SLAM, perception, drones and robot learning" width="100%"></p>
+![Awesome Robotics Frameworks: ROS 2, simulators, motion planning, SLAM, perception, drones and robot learning](assets/banner.webp)
 
 # Awesome Robotics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
