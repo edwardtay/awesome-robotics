@@ -258,6 +258,7 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 | [TurtleBot](https://github.com/ROBOTIS-GIT/turtlebot3) | Mobile | Standard ROS learning platform, affordable mobile robot. |
 | [Unitree Go2](https://github.com/unitreerobotics/unitree_ros2) | Quadruped | Affordable quadruped with ROS 2 SDK. |
 | [SO-100/SO-ARM](https://github.com/TheRobotStudio/SO-ARM100) | Arm | Low-cost robot arm for research and education. |
+| [SO-ARM 102](https://github.com/roboninecom/SO-ARM-102) | Arm | 3D-printable leader-follower arm with a parallel gripper for LeRobot teleoperation and imitation learning. |
 | [Franka Emika](https://github.com/frankarobotics/franka_ros2) | Arm | Research-grade 7-DoF arm with torque control. |
 | [Hello Robot Stretch](https://github.com/hello-robot/stretch_ros2) | Mobile Manipulator | Affordable mobile manipulator for home robotics. |
 
