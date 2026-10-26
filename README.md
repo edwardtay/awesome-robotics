@@ -260,6 +260,8 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 | [SO-100/SO-ARM](https://github.com/TheRobotStudio/SO-ARM100) | Arm | Low-cost robot arm for research and education. |
 | [Franka Emika](https://github.com/frankarobotics/franka_ros2) | Arm | Research-grade 7-DoF arm with torque control. |
 | [Hello Robot Stretch](https://github.com/hello-robot/stretch_ros2) | Mobile Manipulator | Affordable mobile manipulator for home robotics. |
+| [myCobot 280](https://shop.elephantrobotics.com/collections/mycobot-280?ref=qijqadzm) | Arm | Desktop 6-axis arm from Elephant Robotics with Python, ROS, and Arduino support. |
+| [myAGV](https://shop.elephantrobotics.com/collections/myagv-smart-navigation-robot?ref=qijqadzm) | Mobile | Compact mobile base from Elephant Robotics with lidar SLAM and ROS navigation. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -395,3 +397,5 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 
 
 To the extent possible under law, [Edward Tay](https://github.com/edwardtay) has waived all copyright and related or neighboring rights to this work.
+
+<sub>Some links are referral links.</sub>
