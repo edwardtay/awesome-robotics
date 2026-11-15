@@ -214,6 +214,7 @@ Using LLMs and VLMs to make robots understand language, plan, and reason.
 | [Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T) | 8k | Python | NVIDIA open humanoid foundation model (GR00T N). |
 | [NVIDIA Cosmos](https://github.com/NVIDIA/cosmos) | 12k | Python | Open world-foundation models for physical AI / synthetic data. |
 | [Diffusion Policy](https://github.com/real-stanford/diffusion_policy) | 5k | Python | Visuomotor policy learning via action diffusion. ⚠️ |
+| [RoboHarness](https://github.com/vicfei/RoboHarness) | 0 | Python | Incident-hardened execution harness for $200-class 5-DOF arms: LLM plans, deterministic primitives act, safety gates own every motion. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
